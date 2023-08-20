@@ -19,9 +19,9 @@ document.getElementById('new-employee').addEventListener('click', (event) => {
   row.setAttribute('id', `item-${id}`);
 
   // Populate the new row with cells containing employee information
-  row.insertCell(0).innerHTML = firstName;   // First cell: First Name
-  row.insertCell(1).innerHTML = lastName;    // Second cell: Last Name
-  row.insertCell(2).innerHTML = zipCode;     // Third cell: Zip Code
+  row.insertCell(0).innerHTML = firstName; // First cell: First Name
+  row.insertCell(1).innerHTML = lastName; // Second cell: Last Name
+  row.insertCell(2).innerHTML = zipCode; // Third cell: Zip Code
 
   // Increment the id for the next row
   id++;
